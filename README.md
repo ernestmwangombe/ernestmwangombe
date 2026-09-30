@@ -294,19 +294,19 @@ Explicit Authentication Boundaries
 
 Protected API resources use authentication middleware to verify requests before route execution.
 
-Contract-First APIs
+### Contract-First APIs
 
 OpenAPI specifications and Swagger UI make API endpoints explicit, documented, and testable.
 
-Containerized Environments
+### Containerized Environments
 
 Docker and Docker Compose provide repeatable application and database environments.
 
-Controlled AI Responsibilities
+### Controlled AI Responsibilities
 
 AI should perform tasks where language understanding or generation adds value, while business rules, validation, and sensitive decisions remain under deterministic software or human control.
 
-Evidence Before Positioning
+### Evidence Before Positioning
 
 I distinguish between what I have already demonstrated, what I am actively developing, and what I plan to build next.
 
