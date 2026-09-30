@@ -2,110 +2,386 @@
 
 ### IT Consultant | Backend & AI Systems Engineer
 
-> *"I build secure backend APIs and data pipelines that turn unstructured business documents into structured records, with a focus on reducing manual data entry and protecting database integrity."*
+**I build secure backend systems, AI-powered workflows, and practical automation for businesses.**
 
-I am an IT Consultant based in Nairobi, Kenya (UTC+3), applying a background in network security, server administration, and Linux systems to backend API development, database systems, and automated document processing.
+I am an IT Consultant based in Nairobi, Kenya, with a background in network security, server administration, Linux systems, and business technology.
 
----
+I am applying that experience to backend engineering, API development, database systems, workflow automation, AI integration, and business process automation.
 
-## 🎯 Technical Capabilities & Stack Readiness
+My engineering approach is practical:
 
-| Domain               | Proven Capabilities (Supported by Code Evidence)                                                                                    | Active Engineering Roadmap                                        |
-| :------------------- | :---------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------- |
-| **Backend & APIs**   | Express 5.2.1 REST APIs, Modular Routing, Middleware Gates, Interactive Swagger UI (`/docs`), OpenAPI 3.0 Specs                     | Strict TypeScript API Architecture, Zod Runtime Schema Validation |
-| **Security & Auth**  | Supabase Auth Integration (`@supabase/supabase-js`), JWT Bearer Token Verification, Parameterized SQL (`$1`, `$2`, `?`)             | Role-Based Access Control (RBAC), Rate-Limiting Perimeter Defense |
-| **Databases**        | PostgreSQL 16 Alpine, `pg.Pool` Connection Pooling, SQLite Write-Ahead Logging (WAL) Mode (`better-sqlite3`), Database Transactions | Relational Database Migrations, Multi-Tenant Schema Isolation     |
-| **Infrastructure**   | Docker, Docker Compose, Internal Bridge Networks (`db:5432`), Mounted Volume Persistence (`taskdata`), Netlify Hosting              | Automated CI/CD Pipelines, Production Server Hardening            |
-| **Workflow Systems** | Application State Engines (`applyfolio`), Controller Logic Separation, Structured Application Workflows                             | LLM API Document Ingestion, Structured JSON Extraction Pipelines  |
+**Understand the process → identify the bottleneck → design the system → build the backend → validate the data → document the solution.**
 
 ---
 
-## 📂 Featured Repositories & Live Projects
+## 🧭 What I Build
 
-### 🔒 [Auth-Login-protect](https://github.com/ernestmwangombe/Auth-Login-protect)
-
-**Backend Authentication & Supabase Auth API Gateway**
-
-* **Problem Solved:** Protects selected backend resources through authenticated access and verified session tokens.
-* **Architecture:** Node.js, Express 5.2.1, Supabase Auth (`@supabase/supabase-js`), Custom JWT Bearer Middleware, OpenAPI 3.0, Swagger UI (`swagger-ui-express`).
-* **Key Implementation Details:**
-
-  * Custom `requireAuth` middleware verifies Supabase JWT bearer tokens before granting access to protected routes.
-  * Authentication endpoints (`/auth/signup`, `/auth/login`, `/auth/logout`) manage authentication flows.
-  * Interactive Swagger UI documentation is available through `/docs` with `BearerAuth` testing.
-  * Environment secrets are isolated through `.env` configuration, with data-handling controls implemented within the application.
-
-### 🔹 [task-management-api](https://github.com/ernestmwangombe/task-management-api)
-
-**Containerized REST API & Dual-Database Persistence Engine**
-
-* **Problem Solved:** Provides persistent transactional record management across containerized environments using PostgreSQL and SQLite.
-* **Architecture:** Express 5.2.1, Node 18 Alpine (`node:18-alpine`), PostgreSQL 16 (Alpine), SQLite 3 (WAL Mode), Docker Compose, OpenAPI 3.0.
-* **Key Implementation Details:**
-
-  * `pg.Pool` provides PostgreSQL connection pooling through `db.js`.
-  * `better-sqlite3` uses Write-Ahead Logging (`PRAGMA journal_mode = WAL`) and database transactions.
-  * Parameterized SQL queries (`$1`, `$2`, `$3`) separate query parameters from SQL statements.
-  * Docker Compose provides an isolated bridge network (`db:5432`) with mounted volume storage (`taskdata`).
-  * An interactive OpenAPI 3.0 specification is served through `/docs`.
-
-### 💼 [applyfolio](https://github.com/ernestmwangombe/applyfolio)
-
-**Application Tracking & Business Process Engine**
-
-* **Problem Solved:** Coordinates multi-stage application processing workflows and status tracking through defined state transitions.
-* **Architecture:** Node.js, Express, JavaScript (ES6+), Modular Routing.
-* **Key Implementation Details:** Controller-service separation, defined lifecycle state transitions, and structured payload handling.
-
-### 🩺 [Nurse-Lilian-M-KE-Site](https://github.com/ernestmwangombe/Nurse-Lilian-M-KE-Site)
-
-**Live Healthcare Consultancy Platform**
-
-* **Purpose:** Website developed and deployed for a private healthcare consultancy in Kenya.
-* **Stack:** HTML5, CSS3, JavaScript, Client Intake Portal, Cloud Hosting.
-
-### 🌐 [Live Portfolio Gateway](https://ernestmwangombe.netlify.app/)
-
-**Consulting Portal & Public Ingress**
-
-* **Purpose:** Public website showcasing backend engineering projects, service offerings, and technical contact options.
-* **Stack:** Netlify Hosting, SSL/TLS, Custom Domain Routing.
+- Backend REST APIs
+- Database-backed business applications
+- Authentication and protected API resources
+- Containerized backend systems
+- Business workflow and state-management systems
+- AI API integrations
+- AI-assisted business workflows
+- Document and data extraction pipelines
+- Structured data processing
+- Automation systems connecting applications, APIs, and databases
 
 ---
 
-## 🚀 Active Engineering Roadmap
+## 🛠️ Technical Capabilities
 
-### 📄 `ai-document-pipeline`
-
-**Target Showcase — AI Document Extraction Backend**
-
-* **Objective:** Developing a backend API that ingests PDF invoices and receipts, extracts structured JSON payloads through OpenAI/Gemini LLM APIs, validates schemas using Zod, and persists verified records into PostgreSQL.
-* **Current Phase:** Active repository development focused on building evidence for AI-powered document extraction and document-to-database workflows.
-
----
-
-## 🛡️ Core Engineering Principles
-
-1. **Defensive Input Parameterization:** Use parameterized database queries to separate client-supplied values from SQL statements.
-2. **Explicit Authentication Boundaries:** Use JWT Bearer middleware to verify authenticated requests before allowing access to protected routes.
-3. **Contract-First Documentation:** Maintain interactive OpenAPI 3.0 Swagger UI documentation for API endpoints.
-4. **Environment Isolation:** Containerize development stacks with Docker Compose and keep application secrets in environment configuration.
+| Area | Demonstrated Capability | Developing Next |
+|---|---|---|
+| **Backend & APIs** | Node.js, Express 5, REST APIs, Modular Routing, Middleware, OpenAPI 3.0, Swagger UI | TypeScript API Architecture, Zod Runtime Validation |
+| **Authentication & Security** | Supabase Auth, JWT Bearer Verification, Protected Routes, Parameterized SQL | RBAC, API Rate Limiting |
+| **Databases** | PostgreSQL, SQLite, `pg.Pool`, SQLite WAL, Transactions, Parameterized Queries | Migrations, Multi-Tenant Database Design |
+| **Infrastructure** | Docker, Docker Compose, Bridge Networks, Persistent Volumes, Netlify | CI/CD, Production Server Hardening |
+| **Workflow Systems** | Application State Management, Lifecycle Transitions, Controller Separation | Advanced Workflow Automation, Multi-System Integrations |
+| **AI & Automation** | Claude API, AI-assisted workflows, LLM evaluation, AI workflow design | Production AI Integrations, Document Extraction, AI Agents |
 
 ---
 
-## 💬 Technical Audits & Consulting
+## 🚀 Featured Projects
 
-I help professional service firms and SMEs identify manual data-entry bottlenecks, improve backend API security, and design practical workflow automation systems.
+### 🤖 Guest Copilot — AI Hospitality Assistant
 
-### Consulting Engagement Framework
+WhatsApp-native AI guest inquiry and booking assistant for coastal Kenya hospitality.
 
-1. **Technical Audit:** Review manual file-processing workflows, backend architecture, and API security controls.
-2. **Architecture & Strategy:** Design backend APIs, database systems, and document automation workflows around the client's operational requirements.
-3. **Implementation:** Build documented backend services using technologies such as Express, PostgreSQL, Docker, and API integrations.
-4. **Deployment & Handover:** Package and document the resulting systems for deployment and continued maintenance.
+[View Project →](https://github.com/ernestmwangombe/guest-copilot-showcase)
 
-**Portfolio Gateway:** [ernestmwangombe.netlify.app](https://ernestmwangombe.netlify.app/)
+---
 
-**GitHub Profile:** [github.com/ernestmwangombe](https://github.com/ernestmwangombe)
+### 🏢 FlyRank Capstone Widget Platform
 
-**Location & Availability:** Nairobi, Kenya (UTC+3) | Open for global remote contracts & technical consulting
+Multi-tenant lead-capture platform demonstrating Node.js, Express, PostgreSQL, JWT authentication, Docker and REST APIs.
+
+[View Project →](https://github.com/ernestmwangombe/flyrank-capstone-widget-platform)
+
+---
+
+### 📄 ApplyFolio — AI Job Application Workspace
+
+React-based application workspace combining AI-assisted analysis, deterministic scoring, CV generation and application management.
+
+[View Project →](https://github.com/ernestmwangombe/applyfolio)
+
+---
+
+### 🔐 Auth Login Protect
+
+Node.js and Express authentication system using Supabase Auth, JWT bearer-token verification and protected API routes.
+
+[View Project →](https://github.com/ernestmwangombe/Auth-Login-protect)
+
+---
+
+### 🗄️ Task Management API
+
+Containerized REST API demonstrating PostgreSQL, SQLite, Docker Compose, transactions, parameterized SQL and OpenAPI documentation.
+
+[View Project →](https://github.com/ernestmwangombe/task-management-api)
+
+
+# 🚀 Featured AI & Automation Work
+
+## 🤖 Guest Copilot
+
+### AI Guest Assistant & Hospitality Workflow Prototype
+
+**Repository:**  
+https://github.com/ernestmwangombe/guest-copilot-showcase
+
+Guest Copilot is a proof-of-concept AI assistant designed around guest communication and booking workflows for hospitality businesses.
+
+The system explores how AI can handle routine communication while business rules and sensitive decisions remain under application or human control.
+
+### Workflow
+
+Guest Message
+      ↓
+Message Understanding
+      ↓
+Escalation Check
+      ↓
+Availability & Pricing
+      ↓
+AI-Drafted Response
+      ↓
+Booking / Deposit Workflow
+      ↓
+Audit Log 
+
+
+Demonstrated concepts:
+
+Hospitality process automation
+Claude API integration
+AI-assisted message understanding
+AI-generated response drafting
+Business-rule separation
+Human escalation for sensitive cases
+Workflow and audit design
+
+
+## 💻 Backend Engineering Projects
+### 🔹 task-management-api
+Containerized REST API & Database Persistence
+
+Repository:
+https://github.com/ernestmwangombe/task-management-api
+
+A Node.js and Express REST API demonstrating database-backed application architecture with PostgreSQL and SQLite.
+
+Stack: Node.js · Express 5 · PostgreSQL 16 · SQLite · Docker Compose · OpenAPI 3.0
+
+Demonstrates
+RESTful CRUD operations
+PostgreSQL persistence
+SQLite persistence
+pg.Pool connection management
+SQLite Write-Ahead Logging
+Transactional database operations
+Parameterized SQL queries
+Docker Compose
+Persistent container storage
+OpenAPI / Swagger documentation
+
+
+## 🔐 Auth-Login-protect
+### Backend Authentication & Supabase Auth API
+
+Repository:
+https://github.com/ernestmwangombe/Auth-Login-protect
+
+A Node.js and Express backend demonstrating authenticated access to protected resources using Supabase Auth and JWT bearer-token verification.
+
+Stack: Node.js · Express 5 · Supabase Auth · JWT · OpenAPI 3.0 · Swagger UI
+
+Demonstrates
+Supabase authentication integration
+JWT bearer-token verification
+Reusable requireAuth middleware
+Protected API routes
+Signup, login, and logout endpoints
+Authenticated profile and dashboard routes
+Interactive Swagger documentation
+Environment-based secret configuration
+
+
+## 💼 applyfolio
+### AI-Assisted Job Application Workspace
+
+Repository:
+https://github.com/ernestmwangombe/applyfolio
+
+A React-based job application workspace combining AI-assisted analysis, deterministic scoring, persistent application data, and document generation.
+
+Stack: React · JavaScript · Vite · Anthropic API · Browser Storage
+
+Demonstrates
+AI-assisted application analysis
+Job application workflow design
+CV and job-description processing
+Deterministic scoring logic
+Multiple document layouts
+Cover-letter generation workflow
+Client-side persistence
+Browser-based AI API integration
+
+Status: Working application prototype.
+
+## 🌐 flyrank-capstone-widget-platform
+### Multi-Tenant Widget & Lead-Capture Platform
+
+Repository:
+https://github.com/ernestmwangombe/flyrank-capstone-widget-platform
+
+A backend platform for managing multi-tenant embeddable widgets and serving widget configurations to external websites.
+
+Stack: Node.js · Express 5 · PostgreSQL · JWT · bcrypt · Docker
+
+Demonstrates
+Multi-tenant data isolation
+JWT authentication
+PostgreSQL database design
+RESTful CRUD APIs
+Parameterized database queries
+Dynamic embed-script generation
+Cross-origin resource delivery
+HTTP caching strategies
+Automated integration testing
+Dockerized database infrastructure
+
+The project includes documented verification stages covering authenticated CRUD operations, embed-snippet generation, public asset delivery, CORS, caching headers, and error handling.
+
+## 🕷️ ethical-web-scraper-pipeline
+### Resilient Data Extraction & Validation Pipeline
+
+Repository:
+https://github.com/ernestmwangombe/ethical-web-scraper-pipeline
+
+A deterministic backend pipeline built to collect public data from an explicitly designated practice website, transform the raw records, validate them, and produce structured audit reports.
+
+Stack: Node.js · JavaScript · Cheerio · Native Fetch · File System
+
+Demonstrates
+Web data extraction
+HTML parsing with Cheerio
+Rate limiting and throttling
+Response caching
+Network timeout handling
+Retry logic
+Schema-oriented validation
+Data normalization
+Duplicate detection
+Structured JSON output
+Audit reporting
+
+The project deliberately uses Books to Scrape, a practice environment, and documents the scope and limitations of the extraction process.
+
+## 🌍 Web & Client-Facing Projects
+### 🩺 Nurse-Lilian-M-KE-Site
+Healthcare Consultancy Website
+
+Repository:
+https://github.com/ernestmwangombe/Nurse-Lilian-M-KE-Site
+
+Live Website:
+https://nurselilianmke.com/
+
+A client-facing website developed for Nurse Lilian M KE, combining professional service information, nursing resources, digital products, and client contact/intake pathways.
+
+Stack: HTML5 · CSS3 · JavaScript · Responsive Web Design
+
+Demonstrates
+Client-facing website development
+Responsive frontend implementation
+Resource and content organisation
+Contact and enquiry workflows
+Digital product presentation
+Deployment and website maintenance
+
+## 🌐 ernest-portfolio
+### Personal Engineering Portfolio
+
+Repository:
+https://github.com/ernestmwangombe/ernest-portfolio
+
+Live Website:
+https://ernestmwangombe.netlify.app/
+
+My personal portfolio site documenting my transition from IT systems administration into backend and AI engineering.
+
+Stack: HTML5 · CSS3 · Vanilla JavaScript · GitHub REST API · Netlify
+
+Demonstrates
+Responsive static web development
+Interactive UI components
+GitHub API integration
+Dynamic repository presentation
+Professional experience presentation
+Technical portfolio architecture
+Netlify deployment
+
+
+## 🔐 Engineering Principles
+### Defensive Input Handling
+
+I use parameterized SQL queries to keep application data separate from SQL execution logic.
+
+Explicit Authentication Boundaries
+
+Protected API resources use authentication middleware to verify requests before route execution.
+
+Contract-First APIs
+
+OpenAPI specifications and Swagger UI make API endpoints explicit, documented, and testable.
+
+Containerized Environments
+
+Docker and Docker Compose provide repeatable application and database environments.
+
+Controlled AI Responsibilities
+
+AI should perform tasks where language understanding or generation adds value, while business rules, validation, and sensitive decisions remain under deterministic software or human control.
+
+Evidence Before Positioning
+
+I distinguish between what I have already demonstrated, what I am actively developing, and what I plan to build next.
+
+# 🧩 Current Engineering Focus 
+
+```
+ IT Infrastructure & Security
+            │
+            ▼
+     Backend Engineering
+            │
+            ▼
+      ┌─────┴─────┐
+      ▼           ▼
+   REST APIs   Databases
+      |            |
+      └─────┬─────┘
+            ▼
+     Workflow Systems
+            │
+            ▼
+      AI Integration
+            │
+            ▼
+      ┌─────┴─────┐
+      ▼           ▼
+ AI Business    Document
+  Workflows     Processing
+      │           │
+      └─────┬─────┘
+            ▼
+     Business Automation
+```
+
+
+# 💬 Consulting
+
+I help businesses identify manual processes, disconnected systems, and backend problems that can be improved through practical software and automation.
+
+Areas of focus
+Backend API development
+Database-backed applications
+API authentication
+AI API integration
+Business workflow automation
+Document processing
+Structured data extraction
+AI-assisted business applications
+Application and system integration
+Containerized backend deployment
+Engagement approach
+
+1. Understand
+Review the existing process, systems, data flow, and operational bottlenecks.
+
+2. Design
+Define the backend architecture, database, APIs, AI components, and workflow.
+
+3. Build
+Implement the system using appropriate technologies and documented engineering practices.
+
+4. Validate & Deploy
+Test the workflow, document the implementation, and prepare it for deployment and handover.
+
+# 📍 About Me
+
+Location: Nairobi, Kenya (UTC+3)
+
+Availability: Open to global remote contracts and technical consulting engagements.
+
+Portfolio:
+https://ernestmwangombe.netlify.app/
+
+GitHub:
+https://github.com/ernestmwangombe
+
+LinkedIn:
+https://www.linkedin.com/in/ernest-mwangombe-44627578/
