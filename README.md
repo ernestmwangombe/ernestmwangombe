@@ -248,7 +248,7 @@ Repository:
 https://github.com/ernestmwangombe/Nurse-Lilian-M-KE-Site
 
 Live Website:
-https://nurselilianmke.com/
+https://nurselilianmke.netlify.app/
 
 A client-facing website developed for Nurse Lilian M KE, combining professional service information, nursing resources, digital products, and client contact/intake pathways.
 
