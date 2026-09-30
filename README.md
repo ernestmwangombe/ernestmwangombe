@@ -87,7 +87,7 @@ Containerized REST API demonstrating PostgreSQL, SQLite, Docker Compose, transac
 
 ## 🤖 Guest Copilot
 
-### AI Guest Assistant & Hospitality Workflow Prototype
+### 🛏 AI Guest Assistant & Hospitality Workflow Prototype
 
 **Repository:**  
 https://github.com/ernestmwangombe/guest-copilot-showcase
@@ -96,8 +96,9 @@ Guest Copilot is a proof-of-concept AI assistant designed around guest communica
 
 The system explores how AI can handle routine communication while business rules and sensitive decisions remain under application or human control.
 
-### Workflow
+### 💡 Workflow
 
+```
 Guest Message
       ↓
 Message Understanding
@@ -111,17 +112,24 @@ AI-Drafted Response
 Booking / Deposit Workflow
       ↓
 Audit Log 
+```
 
+# 🏎 Demonstrated concepts:
 
-Demonstrated concepts:
+Hospitality process automation 
 
-Hospitality process automation
-Claude API integration
-AI-assisted message understanding
-AI-generated response drafting
-Business-rule separation
-Human escalation for sensitive cases
-Workflow and audit design
+Claude API integration 
+
+AI-assisted message understanding 
+
+AI-generated response drafting 
+
+Business-rule separation 
+
+Human escalation for sensitive cases 
+
+Workflow and audit design 
+
 
 
 ## 💻 Backend Engineering Projects
@@ -285,28 +293,29 @@ Technical portfolio architecture
 Netlify deployment
 
 
-## 🔐 Engineering Principles
-### Defensive Input Handling
+# 🔐 Engineering Principles
+
+## Defensive Input Handling:
 
 I use parameterized SQL queries to keep application data separate from SQL execution logic.
 
-Explicit Authentication Boundaries
+## Explicit Authentication Boundaries:
 
 Protected API resources use authentication middleware to verify requests before route execution.
 
-### Contract-First APIs
+## Contract-First APIs:
 
 OpenAPI specifications and Swagger UI make API endpoints explicit, documented, and testable.
 
-### Containerized Environments
+## Containerized Environments:
 
 Docker and Docker Compose provide repeatable application and database environments.
 
-### Controlled AI Responsibilities
+## Controlled AI Responsibilities:
 
 AI should perform tasks where language understanding or generation adds value, while business rules, validation, and sensitive decisions remain under deterministic software or human control.
 
-### Evidence Before Positioning
+## Evidence Before Positioning:
 
 I distinguish between what I have already demonstrated, what I am actively developing, and what I plan to build next.
 
@@ -346,18 +355,29 @@ I distinguish between what I have already demonstrated, what I am actively devel
 
 I help businesses identify manual processes, disconnected systems, and backend problems that can be improved through practical software and automation.
 
-Areas of focus
-Backend API development
-Database-backed applications
-API authentication
-AI API integration
-Business workflow automation
-Document processing
-Structured data extraction
-AI-assisted business applications
-Application and system integration
-Containerized backend deployment
-Engagement approach
+# 🔎 Areas of focus:
+Backend API development 
+
+Database-backed applications 
+
+API authentication 
+
+AI API integration 
+
+Business workflow automation 
+
+Document processing 
+
+Structured data extraction 
+
+AI-assisted business applications 
+
+Application and system integration 
+
+Containerized backend deployment 
+
+
+# 🤝Engagement approach
 
 1. Understand
 Review the existing process, systems, data flow, and operational bottlenecks.
@@ -373,7 +393,7 @@ Test the workflow, document the implementation, and prepare it for deployment an
 
 # 📍 About Me
 
-Location: Nairobi, Kenya (UTC+3)
+Location: Diani, Kenya (UTC+3)
 
 Availability: Open to global remote contracts and technical consulting engagements.
 
