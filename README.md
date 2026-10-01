@@ -136,24 +136,28 @@ Workflow and audit design
 ### 🔹 task-management-api
 Containerized REST API & Database Persistence
 
-Repository:
-https://github.com/ernestmwangombe/task-management-api
+Repository: https://github.com/ernestmwangombe/task-management-api
+### 🗄️ Task Management API
 
-A Node.js and Express REST API demonstrating database-backed application architecture with PostgreSQL and SQLite.
+**Containerized REST API with PostgreSQL**
 
-Stack: Node.js · Express 5 · PostgreSQL 16 · SQLite · Docker Compose · OpenAPI 3.0
+A deliberately small backend service built to demonstrate practical backend engineering fundamentals: clean API contracts, safe database access, reproducible environments, and persistent data storage.
 
-Demonstrates
-RESTful CRUD operations
-PostgreSQL persistence
-SQLite persistence
-pg.Pool connection management
-SQLite Write-Ahead Logging
-Transactional database operations
-Parameterized SQL queries
-Docker Compose
-Persistent container storage
-OpenAPI / Swagger documentation
+**Demonstrates:**
+- Node.js + Express REST API
+- PostgreSQL persistence
+- Parameterized SQL queries
+- Docker + Docker Compose
+- Private API-to-database networking
+- Persistent Docker volumes
+- Input validation and HTTP status handling
+- CRUD operations
+- Idempotent database initialization
+- Migration from in-memory storage → SQLite → PostgreSQL
+
+**Verification:** The README includes a complete Docker setup, API reference, `curl` CRUD walkthrough, and a persistence test.
+
+[View Repository →](https://github.com/ernestmwangombe/task-management-api)
 
 
 ## 🔐 Auth-Login-protect
