@@ -109,6 +109,21 @@ The project documents the progression from **in-memory storage → SQLite → Po
 
 ---
 
+### 🧠 Background Job — LLM-Powered Support Triage API
+
+---
+### An Express API that uses an LLM to classify incoming support messages by team and urgency.
+
+**Demonstrates:** Node.js · Express · Supabase Authentication · Protected API Routes · LLM API Integration · Configurable Model Providers · OpenAPI
+
+The project explores how to place an LLM behind an authenticated backend endpoint, with configurable provider settings and a stub mode for testing without live model calls.
+
+**Status:** Work in progress.
+
+[View Repository →](https://github.com/ernestmwangombe/background-job)
+
+---
+
 # 🔎 Additional Engineering Work
 
 ### 🕷️ Ethical Web Scraper Pipeline
